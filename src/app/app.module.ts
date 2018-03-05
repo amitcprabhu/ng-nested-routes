@@ -14,6 +14,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { NewProductDetailComponent } from './product-details/new-product-detail/new-product-detail.component';
 import { ListProductDetailComponent } from './product-details/list-product-detail/list-product-detail.component';
 import { ProductComponent } from './product/product.component';
+import { TestasycComponent } from './testasyc/testasyc.component';
 
 
 const routes: Routes = [
@@ -36,7 +37,8 @@ const routes: Routes = [
     ProductDetailsComponent,
     NewProductDetailComponent,
     ListProductDetailComponent,
-    ProductComponent
+    ProductComponent,
+    TestasycComponent
   ],
   imports: [
     BrowserModule,
